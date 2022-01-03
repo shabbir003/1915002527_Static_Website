@@ -2,59 +2,103 @@
 <html>
 
 <head>
-	<title>SHABBIR</title>
-	<meta charset="utf8">
+	<title>Home || City University</title>
+	<meta charset="utf-8">
+	
 	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link rel="stylesheet" type="text/css"
+		href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
 </head>
 
 
 
 
 <body>
-	<div id="header"><img
-			src="https://previews.123rf.com/images/sharafmaksumov/sharafmaksumov1809/sharafmaksumov180901291/107812971-illustration-of-pink-and-blue-impasto-with-long-brush-strokes-banner-background.jpg">
-	</div>
+	<!-- Nav bar -->
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+		<div class="container">
+			<a href="index.html" class="navbar-brand">City University</a>
+		</div>
+		<div class="container">
+			<ul class="navbar-nav ms-auto">
+				<li class="nav-item">
+					<a class="nav-link active" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">Contact Us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="aboutus.html">About US</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="cv.html">CV</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
 
-	<div id="menu">
-		<ul>
-			<a href="index.html">
-				<li>Home</li>
-			</a>
-			<a href="contact.html">
-				<li>Contact</li>
-			</a>
-			<a href="aboutus.html">
-				<li>About Us</li>
-			</a>
-			<a href="cv.html">
-				<li>CV Form</li>
-			</a>
-		</ul>
-	</div>
-
-	<div id="content">
-		<form>
-			<p>Id: <input type="text" placeholder="write your id"></p>
-			<p>Name: <input type="text" placeholder="write your name"></p>
-			<p>Email: <input type="text" placeholder="write your email"></p>
-			<p>Country: <select>
-					<option value="Bangladesh"></option>
-					<option value="Bangladesh"></option>
-					<option value="Bangladesh"></option>
-				</select>
-			</p>
-			<input type="submit" name="">
-		</form>
+	<!-- Main center Content -->
+	<div class="col-md-12 row container-fluid bg-dark">
+		<img class="w-120 " src="https://www.cityuniversity.edu.bd/wp-content/uploads/2018/08/campus-960x500.jpg">
 
 
 	</div>
+	<div class="row ">
 
 
-	<div id="sidebar"> <span class="badge rounded-pill bg-warning text-dark">Left Sidebar</span>
+		<div id="sidebar" class="container col-md-2 nav-link text-dark navbar-light bg-primary">
+			<span class=" badge rounded-pill bg-warning text-dark">
+				Left Sidebar
+			</span>
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link active" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">Contact Us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="aboutus.html">About US</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="cv">CV</a>
+				</li>
+
+			</ul>
+
+		</div>
+
+
+		<div id="content" class="col-md-8 bg-secondary container-fluid">
+			<div>
+				<h1>CITY UNIVERSITY</h1>
+				City University is a Top ranking Private University in Bangladesh having own Permanent Campus
+				established at Khagan, Savar and City Information and Admission Center at Panthapath, Dhaka.
+			</div> <br>
+			<div>
+				CITY UNIVERSITY
+				City University is a Top ranking Private University in Bangladesh having own Permanent Campus
+				established at Khagan, Savar and City Information and Admission Center at Panthapath, Dhaka.
+			</div>
+			<div class="col-md-4">
+				CITY UNIVERSITY
+				City University is a Top ranking Private University in Bangladesh having own Permanent Campus
+				established at Khagan, Savar and City Information and Admission Center at Panthapath, Dhaka.
+			</div>
+		</div>
+
+
+		<div id="rightbar" class="col-md-2 bg-primary container-fluid">
+			<span class="badge rounded-pill bg-warning text-dark">Right sidebar
+
+			</span>
+		</div>
+
 	</div>
-	<div id="rightbar"> <span class="badge rounded-pill bg-warning text-dark">Right sidebar</span> </div>
-	<div id="footer"><span class="badge rounded-pill bg-warning text-dark">Sun lights sparkling</span> </div>
+	<footer class="p-5 bg-dark ">
+
+	</footer>
 
 </body>
 
