@@ -16,7 +16,7 @@
 
 <body>
     <!-- Nav bar -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <nav class=" container navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
         <div class="container">
             <a href="index.html" class="navbar-brand">City University</a>
         </div>
@@ -42,7 +42,7 @@
 
 
     <!-- Carousel -->
-    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <div id="demo" class=" container carousel slide mt-5 bg-dark" data-bs-ride="carousel">
 
         <!-- Indicators/dots -->
         <div class="carousel-indicators">
@@ -78,49 +78,48 @@
 
 
     <!-- Main center Content -->
-    <div class="row ">
+    <div class="container">
 
+        <div class="row">
+            <div id="sidebar" class="col-md-2 nav-link text-dark navbar-light bg-primary">
+                <span class=" badge rounded-pill bg-warning text-dark">
+                    Left Sidebar
+                </span>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cv.html">CV</a>
+                    </li>
 
-        <div id="sidebar" class="col-md-2 nav-link text-dark navbar-light bg-primary">
-            <span class=" badge rounded-pill bg-warning text-dark">
-            Left Sidebar</span>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="aboutus.html">About US</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="cv.html">CV</a>
-                </li>
-
-            </ul>
-
-        </div>
-
-
-        <div class="col-md-8 bg-secondary container-fluid">
-            <div>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Cityuniversycam.png/1200px-Cityuniversycam.png">
+                </ul>
 
             </div>
 
 
-        </div>
+            <div class="col-md-8 bg-secondary">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Cityuniversycam.png/1200px-Cityuniversycam.png" alt="" class="container">
 
-        <div id="rightbar" class="col-md-2 bg-primary container-fluid">
-            <span class="badge rounded-pill bg-warning text-dark">Right sidebar
+
+
+            </div>
+
+            <div id="rightbar" class="col-md-2 bg-primary container-fluid">
+                <span class="badge rounded-pill bg-warning text-dark">Right sidebar
 
             </span>
+            </div>
         </div>
-
     </div>
 
-    <footer class="p-5 bg-dark text-white text-center position-relative">
+    <footer class="container p-4 bg-dark text-white text-center position-relative">
         City University
         <div class="container">
             <p class="lead ">
